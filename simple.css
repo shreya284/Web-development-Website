@@ -144,6 +144,7 @@
 
 .languages .container .TechnologiesBx img
 {
+   align-items:center;
    max-width:100px;
 }
 
