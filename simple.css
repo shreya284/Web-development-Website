@@ -133,7 +133,7 @@
 
 .languages .container .TechnologiesBx
 {
-    position:relative;
+    position:fixed;
     background:#fff;
     width:350px;
     height:350px;
