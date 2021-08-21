@@ -133,7 +133,7 @@
 
 .languages .container .TechnologiesBx
 {
-    position:fixed;
+    position:relative;
     background:#fff;
     width:350px;
     height:350px;
@@ -144,8 +144,8 @@
 
 .languages .container .TechnologiesBx img
 {
-   align-items:center;
    max-width:100px;
+   align-items:center;
 }
 
 .languages .container .TechnologiesBx h2
