@@ -300,9 +300,9 @@
    .about .contentBx,
    .about .imgBx
    {
-      width:100%;
+      width:80%;
       padding:50px;
-      min-height:400px;
+      min-height:300px;
       text-align:center;
    }
 
@@ -341,8 +341,8 @@
    .technology .ProjectsBx img
    {
      margin:20px;
-     width:300px;
-     height:350px;
+     width:150px;
+     height:150px;
    }
 
    .contact
