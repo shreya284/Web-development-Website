@@ -270,103 +270,93 @@
    align-items:center;
 }
 
-@media9max-width:991px)
+@media(max-width:991px)
 {
-    .banner
+   .banner
     {
-       padding:50px;
+      padding:50px;
     }
 
    .banner header
-    {
-       padding:20px 50px;
-    }
+   {
+      padding:20px 50px;
+   }
 
-    .banner .content h2{
-        font-size:36px;
-    }
+   .banner .content h2
+   {
+      font-size:36px;
+   }
 
-    .banner .content p{
-       font-size:18px;
-     }
+   .banner .content p
+   {
+      font-size:16px;
+   }
 
-     .about{
-      flex-direction:column; 
-     }
+   .about
+   {
+      flex-direction:column;
+   }
+   
+   .about .contentBx,
+   .about .imgBx
+   {
+      width:100%;
+      padding:50px;
+      min-height:400px;
+      text-align:center;
+   }
 
-     .about .contentBx,.about .imgBx
-     {
-        width:100%;
-        padding:50px;
-        min-height:400px;
-        text-align:center;
-     }
-     
-     .languages{
-        padding:50px;
-     }
+   .languages
+   {
+      padding:50px;
+   }
 
-     .languages .container{
-        justify-content:center; 
-        margin-top:20px; 
-     }
+   .languages .container
+   {
+      justify-content:center;  
+      margin-top:20px;
+   }
 
-     .languages .container .TechnologiesBx{
-        margin:20px;
-        width:300px;
-        height:350px;
-     }
+   .languages .container .TechnologiesBx
+   {
+      margin:20px;
+      width:300px;
+      height:350px;
+   }
 
-      .technology
-      {
-         padding:50px;
-         padding-top:300px;
-         justify-content:center;
-         flex-direction:column;
-      }
+   .technology
+   {
+      padding:50px;
+      padding-top:300px;
+      justify-content:center;
+      flex-direction:column;
+   }
 
-      .technology .contentBx
-      {
-        width:50%;
-        padding:50px;
-        min-height:400px;
-        text-align:center;
-      }
+   .technology .ProjectsBx
+   {
+      margin-top:40px;
+      max-width:250px;
+   }
+   
+   .technology .ProjectsBx img
+   {
+     margin:20px;
+     width:300px;
+     height:350px;
+   }
 
-      .technology .ProjectsBx
-      {
-         max-width:150px;
-         padding:30px;
-      }
+   .contact
+   {
+      padding:50px;
+   }
 
-      .technology .ProjectsBx img
-      {
-         display:flex;
-         float: left;
-         width: 80px;
-         height: 80px;
-         size:80%;
-         object-fit: contain;
-         object-fit: cover;
-         justify-content:center;
-         align-items:center;
-      }
- 
-      .contact
-      {
-           padding:50px;
-      }
-      
-      .footer{
-          padding:20px 50px;
-          flex-direction:column-reverse;
-          text-align:center;
-      }
+   .footer
+   {
+     padding:20px 50px;
+     flex-direction:column-reverse;
+     text-align:center;
+   }
 }
-
-
-
-
 
 
 
